@@ -1,6 +1,6 @@
 # scrutinizer
 
-[![Build Status](https://semaphoreci.com/api/v1/projects/a5924e43-1000-4e73-b34d-1306e394bbc7/445153/badge.svg)](https://semaphoreci.com/bhfailor/scrutinizer)    [![Code Climate](https://codeclimate.com/github/bhfailor/scrutinizer/badges/gpa.svg)](https://codeclimate.com/github/bhfailor/scrutinizer)    [![Test Coverage](https://codeclimate.com/github/bhfailor/scrutinizer/badges/coverage.svg)](https://codeclimate.com/github/bhfailor/scrutinizer/coverage)   
+[![Build Status](https://semaphoreci.com/api/v1/projects/d6928710-5d79-49db-9303-1206842d835b/466811/badge.svg)](https://semaphoreci.com/bhfailor/scrutinizer)     [![Code Climate](https://codeclimate.com/github/bhfailor/scrutinizer/badges/gpa.svg)](https://codeclimate.com/github/bhfailor/scrutinizer)   [![Test Coverage](https://codeclimate.com/github/bhfailor/scrutinizer/badges/coverage.svg)](https://codeclimate.com/github/bhfailor/scrutinizer/coverage)
 
 **scrutinizer** is a testbed for prototyping API features in *Ruby on Rails*.
 
