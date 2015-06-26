@@ -6,8 +6,6 @@ gem 'rails', '4.2.2'
 
 gem 'rails-api'
 
-gem 'spring', :group => :development
-
 gem 'pg'
 
 # To use ActiveModel has_secure_password
@@ -61,7 +59,7 @@ group :test do
   # from pfox
   gem 'simplecov', :require => false
   # from https://github.com/codeclimate/ruby-test-reporter
-  gem 'codeclimate-test-reporter'
+  gem 'codeclimate-test-reporter', require: nil
   # from https://github.com/wojtekmach/minitest-metadata
   gem 'minitest-metadata', require: false
   # http://chriskottom.com/blog/2014/06/dress-up-your-minitest-output/
