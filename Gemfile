@@ -64,5 +64,8 @@ group :test do
   gem 'minitest-metadata', require: false
   # http://chriskottom.com/blog/2014/06/dress-up-your-minitest-output/
   gem 'minitest-reporters'
+  # Adding back in to see if it helps Code Climate coverage
+  # from https://github.com/blowmage/minitest-rails-capybara
+  gem 'minitest-rails-capybara'
   
 end

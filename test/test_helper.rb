@@ -1,9 +1,10 @@
+require 'codeclimate-test-reporter'
 ENV['RAILS_ENV'] ||= 'test'
 require File.expand_path('../../config/environment', __FILE__)
 require 'rails/test_help'
-require 'codeclimate-test-reporter'
+
 require 'minitest/rails'
-# require 'minitest/rails/capybara'
+require 'minitest/rails/capybara'
 # Uncomment for awesome colorful output
 # require 'minitest/pride'
 require 'minitest/reporters'
