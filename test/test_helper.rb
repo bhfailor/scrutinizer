@@ -8,13 +8,15 @@ require 'minitest/rails'
 # require 'minitest/pride'
 require 'minitest/reporters'
 
-
-SimpleCov.start do
-  formatter SimpleCov::Formatter::MultiFormatter[
+# Try matching 
+# https://github.com/lanrion/weixin_authorize/blob/master/spec/spec_helper.rb
+# in order to get Code Climate coverage
+SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter[
     SimpleCov::Formatter::HTMLFormatter,
     CodeClimate::TestReporter::Formatter
-  ]
-end
+]
+
+SimpleCov.start
 CodeClimate::TestReporter.start
 
 class ActiveSupport::TestCase
