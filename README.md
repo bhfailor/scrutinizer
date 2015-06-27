@@ -6,7 +6,7 @@
 
 * Ruby 2.2.2
 
-* Rails 4.2.1
+* Rails 4.2.2
 
 * System dependencies - see `Gemfile`
 
