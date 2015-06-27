@@ -20,7 +20,7 @@ tmp/
 # Ignore sensitive config files.
 config/database.yml
 config/application.yml
-config/secrets.yml
+# config/secrets.yml # okay since production key is not stored here
 config/initializers/secret_token.rb
 
 # Ignore simplecov static files.
