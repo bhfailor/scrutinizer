@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150626190219) do
+ActiveRecord::Schema.define(version: 20150627143111) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -22,5 +22,11 @@ ActiveRecord::Schema.define(version: 20150626190219) do
   end
 
   add_index "api_keys", ["key"], name: "index_api_keys_on_key", using: :btree
+
+  create_table "recipe_accounts", force: :cascade do |t|
+    t.string "login_username"
+    t.string "login_password"
+    t.string "provider"
+  end
 
 end
